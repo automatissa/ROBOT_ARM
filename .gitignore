@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Calibration data (large binaries)
+*.pkl
+
+# Media
+*.mp4
+!Demo_Vision_Robot_ARM.mp4
+*.avi
+*.mov
+*.mkv
+
+# Table perspective calibration (local)
+src/table_corners.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
