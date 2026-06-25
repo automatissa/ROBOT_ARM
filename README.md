@@ -8,11 +8,8 @@ On filme des pièces colorées posées sur une table, le programme détecte leur
 
 ## Démo
 
-[Clic droit -> Ouvrir dans un nouvel onglet](Demo_Vision_Robot_ARM.mp4)
 
-<video src="Demo_Vision_Robot_ARM.mp4" controls width="100%"></video>
-
-Si la vidéo ne s'affiche pas : [Demo_Vision_Robot_ARM.mp4](./Demo_Vision_Robot_ARM.mp4)
+[![Voir la vidéo](https://img.youtube.com/vi/c958nuAUyGM/maxresdefault.jpg)](https://www.youtube.com/watch?v=c958nuAUyGM)
 
 ---
 
