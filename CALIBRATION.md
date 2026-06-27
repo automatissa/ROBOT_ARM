@@ -34,3 +34,19 @@ Si la caméra n'est pas parfaitement perpendiculaire à la table, les coordonné
 5. Le statut affiche "Table calibrée : L x H px"
 
 Une fois calibrée, tous les centroïdes sont transformés dans le repère de la table via `PerspectiveManager.transform_point()`.
+
+> **Note :** Les coordonnées transformées restent en **pixels** (repère image aplati), pas en millimètres physiques. La calibration main-œil (pixel → mm robot) a été calculée et documentée mais n'est pas encore intégrée au code.
+
+---
+
+## Transformation pixel → mm robot (calculs)
+
+La méthode de calibration main-œil a été calculée manuellement. Les images ci-dessous documentent les étapes :
+
+![Calculs - étape 1](assets/pixel-physique-0.jpeg)
+
+![Calculs - étape 2](assets/pixel-physique-1.jpeg)
+
+![Calculs - résultat](assets/pixel-physique-2.jpeg)
+
+> Ces calculs n'ont pas encore été intégrés au code de vision.

@@ -61,7 +61,21 @@ python main.py
 
 ## Ce qui reste à faire
 
-- La transformation pixel vers millimètres robot (calibration main-œil)
+- La transformation pixel vers millimètres robot (calibration main-œil) — **méthode calculée et documentée** (voir ci-dessous), mais pas encore implémentée dans le code
+
+---
+
+## Transformation pixel → mm robot (calculs)
+
+La méthode de calibration main-œil a été calculée manuellement. Les images ci-dessous documentent les étapes :
+
+![Calculs - étape 1](assets/pixel-physique-0.jpeg)
+
+![Calculs - étape 2](assets/pixel-physique-1.jpeg)
+
+![Calculs - résultat](assets/pixel-physique-2.jpeg)
+
+> Ces calculs n'ont pas encore été intégrés au code de vision. Actuellement, les coordonnées passent par l'homographie table (qui les remet à plat) mais restent en pixels.
 - La communication réseau avec le bras (ROS2 ou TCP/IP)
 - La communication par MATLAB
 - La partie mécanique du robot

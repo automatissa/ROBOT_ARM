@@ -138,6 +138,8 @@ Pour le robot, la classe `DetectionFrame` a une méthode `to_ros_dict()` qui sor
 
 L'envoi au robot via ROS2 ou TCP/IP n'est pas encore implémenté, le format est prêt.
 
+> **Transformation pixel → mm robot :** La méthode de conversion des coordonnées pixels vers les coordonnées physiques de la table du robot (calibration main-œil) a été calculée et documentée (voir [CALIBRATION.md](./CALIBRATION.md#transformation-pixel--mm-robot-calculs)), mais pas encore intégrée dans le code. Les coordonnées affichées sont donc en pixels pour le moment.
+
 ---
 
 ## Les fichiers dans src/
